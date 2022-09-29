@@ -26,6 +26,7 @@ class EmpWage
                 break;
                 default:
                 empHrs = 0;
+                break;
         }
         empWage = empHrs * WAGE_PER_HOUR;
         Console.Write("employe wage:" + empWage);
